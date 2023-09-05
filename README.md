@@ -1,7 +1,11 @@
 # JordynRabinowitz.github.io
 
 
-This repository is for web. 
+This repository is for web. It has a wa1.html, wa2.html.
+wa1.html: my name
+wa2.html: about me with some links
+
+
 Fun facts about me:
 I freelance websites and simple apps!
 I use Xcode, Replit, and Visual Studio Code
