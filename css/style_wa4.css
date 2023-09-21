@@ -3,6 +3,9 @@
 /* Selectors to be matched up with rulesets */
 
 /* Rulesets to be matched up with selectors */
+body{
+  margin: 0;
+}
 html {
   font-family: 'Helvetica neue', Arial, 'sans serif';
   font-size: 10px;
