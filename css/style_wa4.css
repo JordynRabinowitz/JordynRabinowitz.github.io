@@ -3,6 +3,12 @@
 /* Selectors to be matched up with rulesets */
 
 /* Rulesets to be matched up with selectors */
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 16px;
+  background-color: #ccc;
+}
+
 .card {
   width: 35em;
   height: 22em;
