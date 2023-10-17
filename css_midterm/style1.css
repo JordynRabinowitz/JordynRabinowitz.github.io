@@ -1,0 +1,84 @@
+
+.slice--event-group .slice--event {
+    height: 100%;
+    padding-bottom: 200px;
+    position: relative;
+    width: 100%;
+}
+* {
+    outline: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+article {
+    display: flexbox;
+    
+}
+.text-center {
+    text-align: center;
+}
+body {
+    background-color: #0c0c0c;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden!important;
+    color: #fff;
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+}
+style attribute {
+    color-scheme: light;
+}
+html {
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 1.15;
+}
+
+.content--inner{
+    background-color: white;
+    align-items: center;
+    margin: 5vh;
+    padding: 5vh;
+    color: #0c0c0c;
+}
+.content{
+    padding: 15vh;
+    padding-top: 0;
+}
+.focal-point-center{
+    width: 75%;
+    margin: 2vh;
+}
+.image-container{
+    text-align: center;
+}
+.link1{
+    background-color: purple;
+}
+.subtitle{
+    color: #2b2d2f;
+}
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.date-location{
+    text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .title{
+        font-size: 1rem;
+    }
+    body{
+        font-size: 0.5em;
+        line-height: 0.75;
+    }
+  }
+
