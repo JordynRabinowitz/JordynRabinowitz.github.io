@@ -80,5 +80,8 @@ html {
         font-size: 0.5em;
         line-height: 0.75;
     }
+    .content{
+        padding: 5vh;
+    }
   }
 
