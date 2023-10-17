@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 95, 174);
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: rgb(132, 79, 132);
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:aliceblue;
+}
+nav a:hover{
+    color: blue;
+}
+
+img{
+    width:30vw;
+    height: 30vh;
+}
+
+#red-ball{
+    background-color: rgb(20, 183, 220);
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+    animation-duration: 3s;
+    animation-name: ball2move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+@keyframes ball2move{
+from{
+    margin-right: 100%;
+    margin-top: 0%;
+}
+to{
+    margin-right: 0%;
+    margin-top: 100%;
+    width:102%;
+    height: 102%;
+}
+}
