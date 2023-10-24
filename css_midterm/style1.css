@@ -13,10 +13,12 @@
 }
 h1{
     padding-top: 12vh;
-    color: white;
+    color: rgb(109, 140, 109);
     text-align: center;
     padding-bottom: 0;
     margin-bottom: 0;
+    font-weight: bolder;
+    font-size: 3rem;
 }
 article {
     display: flexbox;
@@ -31,7 +33,7 @@ body {
     margin: 0;
     overflow-x: hidden!important;
     color: #fff;
-    font-family: monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -41,24 +43,23 @@ style attribute {
     color-scheme: light;
 }
 html {
-    font-family: "Lucida Console", "Courier New", monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.15;
 }
 
 .content--inner{
     background-color: white;
     align-items: center;
-    margin: 5vh;
-    padding: 5vh;
+    margin: 3vh;
+    padding: 3vh;
     color: #0c0c0c;
 }
 .content{
-    padding: 15vh;
+    padding: 10vh;
     padding-top: 0;
 }
 .focal-point-center{
-    width: 75%;
-    margin: 2vh;
+    width: 80%;
 }
 .image-container{
     text-align: center;
@@ -68,11 +69,12 @@ html {
 }
 .subtitle{
     color: #fff;
-    font-size: 0.2rem;
+    font-size: 0.3rem;
 }
 .button{
     border: #0c0c0c solid 1px;
     text-align: center;
+    background-color: rgb(109, 140, 109);
 }
 .subtitle:hover{
         color: #2b2d2f;
@@ -83,6 +85,8 @@ html {
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+    background-color: rgb(109, 140, 109);
+    border: #0c0c0c solid 1px;
 }
 .date-location{
     text-align: center;
@@ -125,6 +129,9 @@ html {
         margin: 1vh;
         padding: 1vh;
         padding-top: 0;
+    }
+    h1{
+        font-size: 2rem;
     }
   }
 
