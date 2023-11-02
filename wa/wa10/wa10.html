@@ -7,6 +7,15 @@
     <title>Silly story generator</title>
 
     <style>
+      button, input{
+        background-color: plum;
+
+      }
+    .center{
+      display: inline-block;
+      align-items: center;
+    }
+
       body {
         font-family: helvetica, sans-serif;
         width: 350px;
@@ -36,17 +45,17 @@
   </head>
 
   <body>
-    <div>
+    <div class="center">
       <label for="customname">Enter custom name:</label>
       <input id="customname" type="text" placeholder="" />
     </div>
-    <div>
+    <div class="center">
       <label for="us">US</label
       ><input id="us" type="radio" name="ukus" value="us" checked />
       <label for="uk">UK</label
       ><input id="uk" type="radio" name="ukus" value="uk" />
     </div>
-    <div>
+    <div class="center">
       <button class="randomize">Generate random story</button>
     </div>
     <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
