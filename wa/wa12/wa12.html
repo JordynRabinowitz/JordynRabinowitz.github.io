@@ -2,28 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="ica12.css">
-    <title>Document</title>
+    <title>Inspiration Page</title>
+    <link rel="stylesheet" href="wa12.css">
 </head>
 <body>
-    <div class="app">
-        <header>Random Christmas Trivia</header>
-        <section class="quotes">
-          <div class="quote-text" id="js-quote-text"></div>
-          <div class="quote-text" id="js-answer-text"></div>
-        </section>
-        <section class="controls" >
-          <button type="button" id="js-new-quote" class="new-quote button">
-            Generate a new bit of trivia!
-          </button>
-          <button type="button" id="js-tweet" class="twitter button">
-            Show me the answer!
-          </button>
-          <!-- <a class="answer button" id="js-tweet" target="_blank" rel="noreferrer">Show me the answer!</a> -->
-        </section>
-      </div>
-      <script src="wa12.js"></script>
+
+<div id="quote-container">
+    <label for="categorySelect">Select a category:</label>
+    <select id="categorySelect">
+        <option value="age">Age</option>
+        <option value="alone">Alone</option>
+        <option value="amazing">Amazing</option>
+        <option value="anger">Anger</option>
+        <option value="architecture">Architecture</option>
+        <option value="art">Art</option>
+        <option value="attitude">Attitude</option>
+        <option value="beauty">Beauty</option>
+        <option value="best">Best</option>
+        <option value="birthday">Birthday</option>
+        <option value="business">Business</option>
+        <option value="car">Car</option>
+        <option value="change">Change</option>
+        <option value="communications">Communications</option>
+        <option value="computers">Computers</option>
+        <option value="cool">Cool</option>
+        <option value="courage">Courage</option>
+        <option value="dad">Dad</option>
+        <option value="dating">Dating</option>
+        <option value="death">Death</option>
+        <option value="design">Design</option>
+        <option value="dreams">Dreams</option>
+        <option value="education">Education</option>
+        <option value="environmental">Environmental</option>
+        <option value="equality">Equality</option>
+        <option value="experience">Experience</option>
+        <option value="failure">Failure</option>
+        <option value="faith">Faith</option>
+        <option value="family">Family</option>
+        <option value="famous">Famous</option>
+        <option value="fear">Fear</option>
+        <option value="fitness">Fitness</option>
+        <option value="food">Food</option>
+        <option value="forgiveness">Forgiveness</option>
+        <option value="freedom">Freedom</option>
+        <option value="friendship">Friendship</option>
+        <option value="funny">Funny</option>
+        <option value="future">Future</option>
+        <option value="god">God</option>
+        <option value="good">Good</option>
+        <option value="government">Government</option>
+        <option value="graduation">Graduation</option>
+        <option value="great">Great</option>
+        <option value="happiness">Happiness</option>
+        <option value="health">Health</option>
+        <option value="history">History</option>
+        <option value="home">Home</option>
+        <option value="hope">Hope</option>
+        <option value="humor">Humor</option>
+        <option value="imagination">Imagination</option>
+        <option value="inspirational">Inspirational</option>
+        <option value="intelligence">Intelligence</option>
+        <option value="jealousy">Jealousy</option>
+        <option value="knowledge">Knowledge</option>
+        <option value="leadership">Leadership</option>
+        <option value="learning">Learning</option>
+        <option value="legal">Legal</option>
+        <option value="life">Life</option>
+        <option value="love">Love</option>
+        <option value="marriage">Marriage</option>
+        <option value="medical">Medical</option>
+        <option value="men">Men</option>
+        <option value="mom">Mom</option>
+        <option value="money">Money</option>
+        <option value="morning">Morning</option>
+        <option value="movies">Movies</option>
+        <option value="success">Success</option>
+    </select>
+    <div><q id="quote-text" style="visibility: hidden;"></q></div>
+    <div id="author-text"></div>
+    <button id="quote-btn">Generate Quote</button>
+</div>
+
+<script src="wa12.js"></script>
+
 </body>
 </html>
