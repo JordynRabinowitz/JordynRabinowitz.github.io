@@ -1,4 +1,5 @@
 body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background: linear-gradient(45deg, yellow, green, lightblue, purple);
     margin: 0;
     display: flex;
@@ -16,18 +17,37 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+#quote-text{
+    font-size: 20px;
+}
+.quote{
+    margin: 10px;
+}
 button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 10px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 25px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     background-color: yellow;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+label{
+    font-size: 25px;
+}
 
 button:hover {
     background-color: rgb(180, 180, 0);
 }
+
+@media screen and (max-width: 600px) {
+    body{
+      width: 100%;
+      font-size: 20;
+    }
+    .quote-text {
+      font-size: 15px;
+    }
+  }
