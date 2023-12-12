@@ -50,12 +50,14 @@ function getRandomPosition() {
 
   function clearPhoneNumber() {
     document.getElementById('phoneNumber').value = '';
+    num = 0;
   }
 
   function submitPhoneNumber() {
     const phoneNumber = document.getElementById('phoneNumber').value;
     alert('Submitted phone number: ' + phoneNumber);
     clearPhoneNumber();
+    
 
   }
 
