@@ -20,12 +20,12 @@ function getRandomPosition() {
 
     numberElement.addEventListener('click', function() {
       const phoneNumberField = document.getElementById('phoneNumber');
-      if(num <= 10){
+      if(num < 10){
         phoneNumberField.value += number;
         num = num + 1;
       }
       else{
-        alert('You have already entered a phone number. Please submit');
+        alert('You have already entered a phone number. Please submit.');
       }
       
     });
@@ -55,6 +55,8 @@ function getRandomPosition() {
   function submitPhoneNumber() {
     const phoneNumber = document.getElementById('phoneNumber').value;
     alert('Submitted phone number: ' + phoneNumber);
+    clearPhoneNumber();
+
   }
 
   startAnimation();
