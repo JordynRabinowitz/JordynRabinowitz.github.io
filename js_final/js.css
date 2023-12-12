@@ -20,7 +20,7 @@ body {
 
   .floatingNumber {
     position: absolute;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
   }
 
@@ -28,7 +28,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 20px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 25px;
     background-color: #333;
     color: white;
     border: none;
@@ -36,7 +36,7 @@ body {
 
   #prompt {
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 30px;
   }
 
   #clearButton,
@@ -44,7 +44,7 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 10px;
     padding: 8px 16px;
-    font-size: 16px;
+    font-size: 30px;
     background-color: #008CBA;
     color: white;
     border: none;
